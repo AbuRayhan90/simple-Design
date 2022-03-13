@@ -1,0 +1,80 @@
+$body-bg:#333;
+$font-color:#fff;
+$primary-color:#021533;
+body{
+	background:$body-bg;
+	color:$font-color;
+}
+.navbar {
+	background: #4f130d;
+	border-bottom: 3px solid $primary-color;
+	opacity: 0.9;
+}
+
+#home-section{
+	background: url('../img/home2.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	.dark-overlay{
+		background:rgba(15, 0, 0, 0.7);
+	}
+	.fa{
+		background: #fff;
+		color:green;
+		padding: 4px;
+		font-size: 25px;
+		border-radius: 5px;
+	}
+	.card{
+		background:#621b1b;
+	}
+	.card-form{
+		opacity:0.8;
+	}
+	.home-inner{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+#explore-head-section{
+	background:#04354d;
+
+}
+#explore-main-section{
+	background:white;
+	color:black;
+	.fa{
+		background: #807474;
+		color:#f7f7f7;
+		padding: 4px;
+		font-size: 25px;
+		border-radius: 5px;
+	}
+}
+#create-main-section{
+	background:white;
+	color:black;
+
+	.fa{
+		background: #807474;
+		color:#f7f7f7;
+		padding: 4px;
+		font-size: 25px;
+		border-radius: 5px;
+	}
+}
+#share-head-section{
+	background: #8a3f3f;
+}
+#share-main-section{
+		background: gray;
+}
+#share-main-section{
+	.fa{
+		background: #807474;
+		color:#f7f7f7;
+		padding: 4px;
+		font-size: 25px;
+		border-radius: 5px;
+	}
+}
